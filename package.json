@@ -1,0 +1,12 @@
+{
+  "name": "flight-viz",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Table of flights departing SFO per day of week",
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "fetch": "node scripts/fetch-opensky.mjs",
+    "sample": "node scripts/make-sample.mjs"
+  }
+}
